@@ -1,0 +1,15 @@
+{
+  "name": "new_pacha",
+  "version": "1.0.0",
+  "description": "site pour restaurant kebab",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "new_pacha"
+  },
+  "author": "jlnko",
+  "license": "ISC"
+}
