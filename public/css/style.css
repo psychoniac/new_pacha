@@ -1,5 +1,31 @@
-header {
-  font-size: 16px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contener {
+  background-color: lightgreen;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 25px;
+}
+.header__title {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header__img {
+  max-width: 80%;
+  height: auto;
+  margin: 1.5em;
+}
+
+.menu__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
