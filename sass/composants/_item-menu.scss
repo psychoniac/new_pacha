@@ -1,5 +1,40 @@
-.menu__item{
+.menu{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.menu__item{
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    &--left{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    &--right{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+.title{
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.plat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 80%;
+    height: 50px;
+    background-color: whitesmoke;
+    color: brown;
+    border: 1px solid black;
+    border-radius: 25px;
 }
