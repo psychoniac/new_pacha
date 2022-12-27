@@ -59,6 +59,12 @@
   color: brown;
   border: 1px solid black;
   border-radius: 25px;
+  transform: scale(1);
+  transition: all 2300ms;
+}
+.plat:active {
+  background-color: aqua;
+  transform: scale(1.2);
 }
 
 .menu__list {
