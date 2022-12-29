@@ -13,22 +13,26 @@
     flex-direction: column;
     justify-content: center;
     gap: 2px;
-    font-size: 16px;
     background-color: whitesmoke;
-    color: brown;
     border: 1px solid black;
     border-radius: 25px;
     text-align: center;
     & p {
       text-transform: uppercase;
+      font-size: $size_txt;
+      font-family: $font_txt;
+      color: $color_txt;
     }
     & span {
       font-style: italic;
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   & h2 {
     text-align: center;
     width: 100%;
+    font-family: $font_title;
+    color: $color_title;
+    font-size: $size_title;
   }
 }
