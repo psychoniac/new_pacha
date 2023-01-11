@@ -121,7 +121,7 @@
   gap: 1em;
 }
 .menu__list--plat {
-  width: 40%;
+  width: 70%;
   height: 100px;
   display: flex;
   flex-direction: column;
