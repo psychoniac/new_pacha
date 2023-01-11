@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,27 +12,13 @@
   font-family: flow-ext;
   src: url(/public/font/flow-ext/Flow.otf), url(/public/font/flow-ext/Flow_B.otf);
 }
+@font-face {
+  font-family: oswald;
+  src: url(/public/font/Oswald/Oswald-VariableFont_wght.ttf);
+}
 .contener {
-  background: linear-gradient(138deg, rgb(19, 130, 27) 15%, rgb(103, 172, 119) 39%, rgb(31, 224, 98) 76%);
-  width: 100%;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1em;
-}
-.header__title {
-  font-family: indie_flower;
-  color: #fdfd96;
-  font-size: 50px;
-  padding-top: 0.5em;
-}
-.header__img {
-  width: 100%;
-  filter: drop-shadow(16px 16px 30px);
-  padding-bottom: 1em;
+  background: linear-gradient(138deg, rgb(171, 235, 175) 15%, rgb(24, 139, 51) 39%, rgb(55, 78, 63) 76%);
+  min-width: 375px;
 }
 
 .menu {
@@ -67,7 +54,7 @@
 
 .title {
   display: flex;
-  font-family: indie_flower;
+  font-family: oswald;
   color: #fdfd96;
   font-size: 25px;
   justify-content: space-around;
@@ -85,7 +72,7 @@
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  font-family: flow-ext;
+  font-family: oswald;
   font-size: 18px;
   color: #cd5c5c;
   background-color: rgb(173, 230, 173);
@@ -109,7 +96,32 @@
 .menu__list--plat span {
   color: #cd5c5c;
   font-size: 22px;
-  font-family: flow-ext;
+  font-family: oswald;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.header__title {
+  font-family: oswald;
+  color: #fdfd96;
+  font-size: 50px;
+  padding-top: 0.5em;
+}
+.header__img {
+  width: 100%;
+  filter: drop-shadow(16px 16px 30px);
+  padding-bottom: 1em;
+}
+
+footer {
+  padding: 2em;
+}
+footer span {
+  font-style: italic;
 }
 
 .menu__list {
@@ -135,7 +147,7 @@
 .menu__list--plat p {
   text-transform: uppercase;
   font-size: 22px;
-  font-family: flow-ext;
+  font-family: oswald;
   color: #cd5c5c;
 }
 .menu__list--plat span {
@@ -145,7 +157,7 @@
 .menu__list h2 {
   text-align: center;
   width: 100%;
-  font-family: indie_flower;
+  font-family: oswald;
   color: #fdfd96;
   font-size: 25px;
 }
@@ -158,12 +170,12 @@
   padding-top: 4em;
 }
 .snacking h2 {
-  font-family: indie_flower;
+  font-family: oswald;
   font-size: 25px;
   color: #fdfd96;
 }
 .snacking p {
-  font-family: flow-ext;
+  font-family: oswald;
   font-size: 22px;
   color: #cd5c5c;
 }
@@ -215,19 +227,12 @@
 .snacking__right li {
   color: #cd5c5c;
   font-size: 22px;
-  font-family: flow-ext;
+  font-family: oswald;
 }
 .snacking__right span {
   color: grey;
   font-size: 22px;
-  font-family: flow-ext;
-}
-
-footer {
-  padding: 2em;
-}
-footer span {
-  font-style: italic;
+  font-family: oswald;
 }
 
 /*# sourceMappingURL=style.css.map */

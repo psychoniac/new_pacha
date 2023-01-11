@@ -2,8 +2,16 @@
   font-family: indie_flower;
   src: url(/public/font/Indie_Flower/IndieFlower-Regular.ttf);
 }
+
 @font-face {
   font-family: flow-ext;
   src: url(/public/font/flow-ext/Flow.otf),
     url(/public/font/flow-ext/Flow_B.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: oswald;
+  src: url(/public/font/Oswald/Oswald-VariableFont_wght.ttf);
 }
