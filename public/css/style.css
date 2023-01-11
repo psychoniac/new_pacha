@@ -169,8 +169,9 @@
 }
 .snacking__center {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
   width: 100%;
 }
 
@@ -179,7 +180,6 @@
   flex-direction: column;
   align-items: center;
   gap: 1em;
-  width: 30%;
   padding-top: 1em;
 }
 .snacking__center--item span {
@@ -203,12 +203,14 @@
 .snack {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 80%;
+  gap: 1em;
 }
 
 .snacking__right {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 .snacking__right li {
   color: #cd5c5c;
