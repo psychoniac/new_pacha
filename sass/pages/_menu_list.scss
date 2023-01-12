@@ -40,7 +40,26 @@
   }
 }
 
-.plat {
-  animation: translate_plat 1s 1 cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+.menu1 {
+  animation: translate_plat 2s ease-in-out 4000ms 1 backwards;
+
+
+}
+
+.menu2 {
+  animation: translate_plat 2s ease-in-out 4500ms 1 backwards;
+
+
+}
+
+.menu3 {
+  animation: translate_plat 2s ease-in-out 5000ms 1 backwards;
+
+
+}
+
+.menu4 {
+  animation: translate_plat 2s ease-in-out 5500ms 1 backwards;
+
 
 }

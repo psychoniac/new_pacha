@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2em;
 }
 
 .menu__item {
@@ -23,12 +24,7 @@
     align-items: center;
     gap: 1em;
 
-    /* & h2 {
-      color: $color_title;
-      font-size: $size_title;
-      font-family: $font_title;
-      text-align: center;
-    }*/
+
   }
 }
 
@@ -59,12 +55,8 @@
   background-color: rgb(173, 230, 173);
   border: 1px solid rgb(131, 98, 98);
   border-radius: 25px;
-  transform: scale(1);
-  transition: all 300ms;
 
-  &:active {
-    transform: scale(1.2);
-  }
+
 
   &__faitMaison {
     font-style: italic;
@@ -83,4 +75,24 @@
     font-size: $size_txt;
     font-family: $font_txt;
   }
+}
+
+.sandwich {
+  animation: translate_plat 2s ease-in-out 500ms 1 backwards;
+
+}
+
+.panini {
+  animation: translate_plat 2s ease-in-out 1500ms 1 backwards;
+
+}
+
+.tacos {
+  animation: translate_plat 2s ease-in-out 2500ms 1 backwards;
+
+}
+
+.assiette {
+  animation: translate_plat 2s ease-in-out 3500ms 1 backwards;
+
 }
