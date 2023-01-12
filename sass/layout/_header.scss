@@ -2,18 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+
+
+
 
   &__title {
+    width: 100%;
+    text-align: center;
     font-family: $font_title;
     color: $color_title;
-    font-size: 50px;
-    padding-top: 0.5em;
+    font-size: 25px;
+    padding-bottom: 1em;
+    background-color: rgb(83, 83, 49);
+
+    & h2 {
+      font-size: 15px;
+    }
   }
 
-  &__img {
-    width: 100%;
-    filter: drop-shadow(16px 16px 30px);
-    padding-bottom: 1em;
+  &__image {
+    min-width: 375px;
+    height: 100%;
+
+    &--jpg {
+      max-width: 100%;
+
+      filter: drop-shadow(16px 16px 30px);
+    }
   }
 }

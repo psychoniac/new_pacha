@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+@keyframes translate_plat {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 @font-face {
   font-family: indie_flower;
   src: url(/public/font/Indie_Flower/IndieFlower-Regular.ttf);
@@ -17,7 +27,7 @@
   src: url(/public/font/Oswald/Oswald-VariableFont_wght.ttf);
 }
 .contener {
-  background: linear-gradient(138deg, rgb(171, 235, 175) 15%, rgb(24, 139, 51) 39%, rgb(55, 78, 63) 76%);
+  background-image: linear-gradient(darkred, darkgreen);
   min-width: 375px;
 }
 
@@ -103,18 +113,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 }
 .header__title {
+  width: 100%;
+  text-align: center;
   font-family: oswald;
   color: #fdfd96;
-  font-size: 50px;
-  padding-top: 0.5em;
-}
-.header__img {
-  width: 100%;
-  filter: drop-shadow(16px 16px 30px);
+  font-size: 25px;
   padding-bottom: 1em;
+  background-color: rgb(83, 83, 49);
+}
+.header__title h2 {
+  font-size: 15px;
+}
+.header__image {
+  min-width: 375px;
+  height: 100%;
+}
+.header__image--jpg {
+  max-width: 100%;
+  filter: drop-shadow(16px 16px 30px);
 }
 
 footer {
@@ -160,6 +178,10 @@ footer span {
   font-family: oswald;
   color: #fdfd96;
   font-size: 25px;
+}
+
+.plat {
+  animation: translate_plat 1s 1 cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .snacking {
