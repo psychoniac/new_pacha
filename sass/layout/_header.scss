@@ -31,3 +31,14 @@
     }
   }
 }
+
+.underline {
+  width: 30%;
+  height: 3px;
+  margin: auto;
+  color: darkred;
+  transform: translateX(-150%);
+  opacity: 0;
+  animation: translate_underline 1s cubic-bezier(0.19, 1, 0.22, 1) 1 1s normal both;
+
+}

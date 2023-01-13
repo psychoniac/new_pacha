@@ -44,6 +44,15 @@
     opacity: 1;
   }
 }
+@keyframes translate_underline {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 @font-face {
   font-family: indie_flower;
   src: url(/public/font/Indie_Flower/IndieFlower-Regular.ttf);
@@ -79,6 +88,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  padding-top: 1em;
 }
 .menu__item--right {
   display: flex;
@@ -169,6 +179,16 @@
 .header__image--jpg {
   max-width: 100%;
   filter: drop-shadow(16px 16px 30px);
+}
+
+.underline {
+  width: 30%;
+  height: 3px;
+  margin: auto;
+  color: darkred;
+  transform: translateX(-150%);
+  opacity: 0;
+  animation: translate_underline 1s cubic-bezier(0.19, 1, 0.22, 1) 1 1s normal both;
 }
 
 footer {
