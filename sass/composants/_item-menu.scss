@@ -53,7 +53,7 @@
   font-family: $font_txt;
   font-size: 18px;
   color: $color_txt;
-  background-color: rgb(173, 230, 173);
+  background-color: white;
   border: 1px solid rgb(131, 98, 98);
   border-radius: 25px;
 
@@ -76,24 +76,4 @@
     font-size: $size_txt;
     font-family: $font_txt;
   }
-}
-
-.sandwich {
-  animation: translate_plat 2s ease-in-out 500ms 1 backwards;
-
-}
-
-.panini {
-  animation: translate_plat 2s ease-in-out 1500ms 1 backwards;
-
-}
-
-.tacos {
-  animation: translate_plat 2s ease-in-out 2500ms 1 backwards;
-
-}
-
-.assiette {
-  animation: translate_plat 2s ease-in-out 3500ms 1 backwards;
-
 }

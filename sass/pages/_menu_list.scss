@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2px;
-    background-color: whitesmoke;
+    background-color: white;
     border: 1px solid black;
     border-radius: 25px;
     text-align: center;
@@ -38,28 +38,4 @@
     color: $color_title;
     font-size: $size_title;
   }
-}
-
-.menu1 {
-  animation: translate_plat 2s ease-in-out 4000ms 1 backwards;
-
-
-}
-
-.menu2 {
-  animation: translate_plat 2s ease-in-out 4500ms 1 backwards;
-
-
-}
-
-.menu3 {
-  animation: translate_plat 2s ease-in-out 5000ms 1 backwards;
-
-
-}
-
-.menu4 {
-  animation: translate_plat 2s ease-in-out 5500ms 1 backwards;
-
-
 }

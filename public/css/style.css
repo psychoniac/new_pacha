@@ -4,55 +4,6 @@
   padding: 0;
 }
 
-@keyframes translate_plat {
-  0% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-@keyframes translate_img1 {
-  0% {
-    transform: translateX(-500px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-@keyframes translate_img2 {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@keyframes translate_img3 {
-  0% {
-    transform: translateX(500px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-@keyframes translate_underline {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
 @font-face {
   font-family: indie_flower;
   src: url(/public/font/Indie_Flower/IndieFlower-Regular.ttf);
@@ -66,7 +17,7 @@
   src: url(/public/font/Oswald/Oswald-VariableFont_wght.ttf);
 }
 .contener {
-  background-image: linear-gradient(darkred, darkgreen);
+  background-color: #54F98D;
   min-width: 375px;
 }
 
@@ -120,7 +71,7 @@
   font-family: oswald;
   font-size: 18px;
   color: #cd5c5c;
-  background-color: rgb(173, 230, 173);
+  background-color: white;
   border: 1px solid rgb(131, 98, 98);
   border-radius: 25px;
 }
@@ -139,22 +90,6 @@
   font-family: oswald;
 }
 
-.sandwich {
-  animation: translate_plat 2s ease-in-out 500ms 1 backwards;
-}
-
-.panini {
-  animation: translate_plat 2s ease-in-out 1500ms 1 backwards;
-}
-
-.tacos {
-  animation: translate_plat 2s ease-in-out 2500ms 1 backwards;
-}
-
-.assiette {
-  animation: translate_plat 2s ease-in-out 3500ms 1 backwards;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -167,7 +102,6 @@
   color: #fdfd96;
   font-size: 25px;
   padding-bottom: 1em;
-  background-color: rgb(83, 83, 49);
 }
 .header__title h2 {
   font-size: 15px;
@@ -213,7 +147,7 @@ footer span {
   flex-direction: column;
   justify-content: center;
   gap: 2px;
-  background-color: whitesmoke;
+  background-color: white;
   border: 1px solid black;
   border-radius: 25px;
   text-align: center;
@@ -234,22 +168,6 @@ footer span {
   font-family: oswald;
   color: #fdfd96;
   font-size: 25px;
-}
-
-.menu1 {
-  animation: translate_plat 2s ease-in-out 4000ms 1 backwards;
-}
-
-.menu2 {
-  animation: translate_plat 2s ease-in-out 4500ms 1 backwards;
-}
-
-.menu3 {
-  animation: translate_plat 2s ease-in-out 5000ms 1 backwards;
-}
-
-.menu4 {
-  animation: translate_plat 2s ease-in-out 5500ms 1 backwards;
 }
 
 .snacking {
