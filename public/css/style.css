@@ -51,7 +51,7 @@
 .title {
   display: flex;
   font-family: oswald;
-  color: #fdfd96;
+  color: darkred;
   font-size: 25px;
   justify-content: space-around;
   align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .plat {
-  width: 80%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -86,7 +86,7 @@
 
 .menu__list--plat span {
   color: #cd5c5c;
-  font-size: 22px;
+  font-size: 24px;
   font-family: oswald;
 }
 
@@ -99,7 +99,7 @@
   width: 100%;
   text-align: center;
   font-family: oswald;
-  color: #fdfd96;
+  color: darkred;
   font-size: 25px;
   padding-bottom: 1em;
 }
@@ -125,6 +125,13 @@
   animation: translate_underline 1s cubic-bezier(0.19, 1, 0.22, 1) 1 1s normal both;
 }
 
+.hero {
+  width: 80%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
 footer {
   padding: 2em;
 }
@@ -141,7 +148,7 @@ footer span {
   gap: 1em;
 }
 .menu__list--plat {
-  width: 70%;
+  width: 50%;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -154,7 +161,7 @@ footer span {
 }
 .menu__list--plat p {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 24px;
   font-family: oswald;
   color: #cd5c5c;
 }
@@ -166,7 +173,7 @@ footer span {
   text-align: center;
   width: 100%;
   font-family: oswald;
-  color: #fdfd96;
+  color: darkred;
   font-size: 25px;
 }
 
@@ -180,19 +187,24 @@ footer span {
 .snacking h2 {
   font-family: oswald;
   font-size: 25px;
-  color: #fdfd96;
+  color: darkred;
 }
 .snacking p {
   font-family: oswald;
-  font-size: 22px;
+  font-size: 24px;
   color: #cd5c5c;
 }
 .snacking__center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
-  width: 100%;
+  gap: 2em;
+  margin-top: 2em;
+}
+.snacking__center--title {
+  color: darkred;
+  font-family: oswald;
+  font-size: 25px;
 }
 
 .snacking__center--item {
@@ -200,39 +212,18 @@ footer span {
   flex-direction: column;
   align-items: center;
   gap: 1em;
-  padding-top: 1em;
+  background-color: white;
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.snacking__center--item h2 {
+  color: darkred;
+  font-family: oswald;
+  font-size: 25px;
 }
 .snacking__center--item span {
   color: grey;
-}
-
-.snacking__left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1em;
-  width: 100vw;
-}
-
-.snacking__left--img1 {
-  width: 250px;
-  height: 200px;
-  border: 2px solid #cd5c5c;
-  animation: translate_img1 3s 1s 1 normal both;
-}
-
-.snacking__left--img2 {
-  width: 250px;
-  height: 200px;
-  border: 2px solid #cd5c5c;
-  animation: translate_img2 3s 1s 1 normal both;
-}
-
-.snacking__left--img3 {
-  width: 250px;
-  height: 200px;
-  border: 2px solid #cd5c5c;
-  animation: translate_img3 3s 1s 1 normal both;
 }
 
 .snack {
@@ -240,21 +231,41 @@ footer span {
   align-items: center;
   gap: 1em;
 }
+.snack p {
+  font-size: 24px;
+  color: #cd5c5c;
+  font-family: oswald;
+}
+.snack span {
+  font-size: 24px;
+  color: #cd5c5c;
+  font-family: oswald;
+}
 
 .snacking__right {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  margin-top: 2em;
+  padding: 2em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.snacking__right h2 {
+  font-family: oswald;
+  font-size: 25px;
+  color: darkred;
 }
 .snacking__right li {
   color: #cd5c5c;
-  font-size: 22px;
+  font-size: 24px;
   font-family: oswald;
 }
 .snacking__right span {
   color: grey;
-  font-size: 22px;
+  font-size: 24px;
   font-family: oswald;
 }
 
